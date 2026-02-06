@@ -1,4 +1,4 @@
-# Aira — Frontend Assignment
+# Aira - Frontend Assignment
 
 Aira is your AI assistant that works 24/7 on your behalf. The main interaction happens through WhatsApp — you chat with Aira directly, and it manages your life across groups, email, calendar, and more.
 
@@ -10,8 +10,7 @@ This is a Turborepo monorepo with the following structure:
 
 ### Apps
 
-- **`apps/aira-web`** — Next.js web dashboard ([dashboard.airaai.in](https://dashboard.airaai.in)) where users configure connectors, rules, and manage tasks
-- **`apps/aira-app`** — React Native mobile app (iOS & Android)
+- **`apps/aira-web`** — Next.js web dashboard ([app.airaai.in](https://app.airaai.in)) where users configure connectors, rules, and manage tasks
 
 ### Packages
 
