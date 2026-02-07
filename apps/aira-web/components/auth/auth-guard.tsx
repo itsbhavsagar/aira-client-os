@@ -28,7 +28,7 @@ export function AuthGuard({ children, requireActive = true }: AuthGuardProps) {
 
     // If we require active user, check user status
     if (requireActive && !isUserLoading && user && !user.is_active) {
-      router.replace(ROUTES.PHONE);
+      router.replace(ROUTES.HUB);
     }
   }, [isAuthenticated, isLoading, user, isUserLoading, requireActive, router]);
 

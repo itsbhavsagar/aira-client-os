@@ -46,7 +46,7 @@ function AuthCallbackContent() {
         if (user.is_active) {
           router.replace(ROUTES.HUB);
         } else {
-          router.replace(ROUTES.PHONE);
+          router.replace(ROUTES.HUB);
         }
       } else {
         console.error('[AuthCallback] Failed to verify auth');
